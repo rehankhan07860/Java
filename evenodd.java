@@ -2,14 +2,15 @@ import java.util.Scanner;
 
 public class evenodd {
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Your First Number: ");
-        int number;
-        number = sc.nextInt();
-        if (number % 2 == 0){
-            System.out.println("This is Even Number: " + number);
+        int num;
+        System.out.println("Enter your any number: ");
+        Scanner scanner = new Scanner(System.in);
+        num = scanner.nextInt();
+        if (num % 2 == 0){
+            System.out.println("This number is even");
         }else {
-            System.out.println("This is Odd Number: " + number);
+            System.out.println("This number is odd ");
         }
+
     }
 }
